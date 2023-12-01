@@ -87,7 +87,7 @@ app.get('/add-blog', (req, res) => {
         console.log(err);
       });
   });
-
+//...
 app.use((req, res, next) => {
   console.log('new request made:');
   console.log('host: ', req.hostname);
